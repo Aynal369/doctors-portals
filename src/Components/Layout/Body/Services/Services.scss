@@ -1,0 +1,16 @@
+@import "../../../StyleSheet/colors";
+#services {
+  .top-title {
+    margin-top: 7%;
+  }
+  .sub-title {
+    h5 {
+      color: $subTitle;
+    }
+  }
+
+  h2 {
+    color: $title;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../StyleSheet/colors";
+.info-card {
+  color: #fff;
+  padding: 0 5px;
+  .box {
+    height: 120px;
+    padding: 30px;
+  }
+  .info-icon {
+    font-size: 3rem;
+  }
+  .box-left,
+  .box-right {
+    background-color: $primaryBox;
+  }
+  .box-center {
+    background-color: $secondaryBox;
+  }
+}

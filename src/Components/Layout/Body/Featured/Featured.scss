@@ -1,0 +1,11 @@
+@import "../../../StyleSheet/colors";
+#featured {
+  margin-top: 7%;
+  h1 {
+    color: $title;
+    font-weight: 700;
+  }
+  p {
+    color: $pText;
+  }
+}
