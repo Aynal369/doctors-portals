@@ -6,7 +6,7 @@ import BusinessInfo from "../../AllSections/BusinessInfo/BusinessInfo";
 import Services from "../../AllSections/Services/Services";
 import Featured from "../../AllSections/Featured/Featured";
 import Footer from "../../AllSections/Footer/Footer";
-import Appointment from "../../AllSections/Appointment/Appointment";
+import MakeAppointment from "../../AllSections/MakeAppointment/MakeAppointment";
 import Testimonials from "../../AllSections/Testimonials/Testimonials";
 import Blogs from "../../AllSections/Blogs/Blogs";
 import Doctors from "../../AllSections/Doctors/Doctors";
@@ -23,7 +23,7 @@ const Home = () => {
       <main>
         <Services />
         <Featured />
-        <Appointment />
+        <MakeAppointment />
         <Testimonials />
         <Blogs />
         <Doctors />
