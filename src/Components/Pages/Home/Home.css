@@ -1,0 +1,17 @@
+header {
+  height: 700px;
+  position: relative;
+  background-image: url("../../images/header-bg.png");
+  background-size: cover;
+  background-position: center center;
+}
+header::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 700px;
+  background-color: var(--secondaryColor);
+  z-index: -1;
+}

@@ -1,0 +1,19 @@
+.info-card {
+  color: #fff;
+  padding: 0 5px;
+}
+.box {
+  height: 120px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.info-icon {
+  font-size: 3rem;
+}
+.box-left,
+.box-right {
+  background-color: var(--primaryColor);
+}
+.box-center {
+  background-color: var(--secondaryColor);
+}

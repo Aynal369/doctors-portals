@@ -1,0 +1,30 @@
+@import "./variables.css";
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+}
+p {
+  font-size: 1rem;
+  color: var(--pTextColor);
+  text-transform: lowercase;
+}
+h1,
+h2 {
+  color: var(--hTextSColor);
+  text-transform: capitalize;
+}
+h3,
+h4,
+h6 {
+  color: var(--hTextTColor);
+  text-transform: capitalize;
+}
+h5 {
+  color: var(--hTextPColor);
+  text-transform: capitalize;
+}
